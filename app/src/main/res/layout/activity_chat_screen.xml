@@ -1,0 +1,63 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:gravity="center"
+        android:background="@drawable/corner"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Friendly Chat"
+        android:textColor="#41C9E3"
+        android:textSize="25sp"
+        />
+
+    <!--    <Button-->
+<!--        android:layout_width="45dp"-->
+<!--        android:layout_height="25dp"-->
+<!--        android:text="Sign out"-->
+<!--        android:layout_alignParentRight="true"-->
+<!--        android:layout_marginTop="35dp"-->
+<!--        android:background="@drawable/button2"-->
+<!--        android:layout_marginRight="5dp"-->
+<!--        android:onClick="signOut"-->
+<!--        android:textSize="8dp"-->
+<!--        />-->
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/registration" />
+
+    <EditText
+        android:id="@+id/edit_code"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="50dp"
+        android:layout_centerVertical="true"
+        android:ems="10"
+        android:fontFamily="@font/jacques_francois"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        app:backgroundTint="@color/line"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="130dp"
+        android:hint="Enter Code"
+        />
+
+        <Button
+            android:id="@+id/create_new"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Let's Chat"
+            android:background="@drawable/button"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="50dp"
+            android:paddingHorizontal="30dp"
+            android:paddingVertical="10dp"
+            />
+</RelativeLayout>

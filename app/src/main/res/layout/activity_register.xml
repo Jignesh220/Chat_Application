@@ -1,0 +1,137 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:gravity="center"
+    android:background="#000000"
+    >
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="SignUp"
+        android:layout_centerHorizontal="true"
+        android:textSize="50sp"
+        android:fontFamily="@font/macondo"
+        android:textColor="#139318"
+        />
+
+    <EditText
+        android:id="@+id/full_Name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="100dp"
+        android:ems="10"
+        android:fontFamily="@font/jacques_francois"
+        android:textColor="@color/white"
+        android:hint="full name"
+        android:padding="5dp"
+        android:background="@drawable/button3"
+        android:textAlignment="center"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:id="@+id/email_id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="160dp"
+        android:ems="10"
+        android:fontFamily="@font/jacques_francois"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:hint="email address"
+        android:padding="5dp"
+        android:background="@drawable/button3"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/phone_number"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="220dp"
+        android:ems="10"
+        android:fontFamily="@font/jacques_francois"
+        android:textColor="@color/white"
+        android:hint="phone number"
+        android:padding="5dp"
+        android:background="@drawable/button3"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/password1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="280dp"
+        android:ems="10"
+        android:fontFamily="@font/jacques_francois"
+        android:inputType="textPassword"
+        android:textColor="@color/white"
+        android:hint="password"
+        android:padding="5dp"
+        android:background="@drawable/button3"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+    <EditText
+        android:id="@+id/password2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="40dp"
+        android:layout_marginTop="340dp"
+        android:ems="10"
+        android:fontFamily="@font/jacques_francois"
+        android:inputType="textEmailAddress"
+        android:textColor="@color/white"
+        android:hint="re-enter Password"
+        android:padding="5dp"
+        android:background="@drawable/button3"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        />
+    <Button
+        android:id="@+id/sign_up_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="410dp"
+        android:background="@drawable/button"
+        android:text="Sign Up"
+        android:textColor="@color/line"
+        android:layout_marginHorizontal="40dp"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="480dp"
+        android:fontFamily="@font/jacques_francois"
+        android:text="Already a member "
+        android:textColor="@color/title"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="540dp"
+        android:textSize="10dp"
+        android:text="Log in"
+        android:textColor="#ffffff"
+        android:background="@drawable/button"
+        android:onClick="navigate_sign_in"
+        />
+    <ProgressBar
+        android:id="@+id/progressBar2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+
+        />
+</RelativeLayout>
