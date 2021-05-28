@@ -66,7 +66,7 @@ public class chatScreen extends AppCompatActivity {
         }).addOnFailureListener(new OnFailureListener() {
             @Override
             public void onFailure(@NonNull @NotNull Exception e) {
-                Toast.makeText(chatScreen.this, "fail :(", Toast.LENGTH_LONG).show();
+
             }
         });
     }
